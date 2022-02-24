@@ -1,0 +1,68 @@
+
+        body {
+            background-color: rgb(220,230,250);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            text-align: center;
+            color: rgb(79,79,79);
+        
+            
+        
+        }
+
+        h3 {
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            font-size: 25px;
+            color: rgb(205,92,92);
+        }
+        h1 {
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            font-size: 30px;
+            color: rgb(220,20,60);
+            
+        }
+
+        #Foto {
+            text-align: center;
+        }
+
+        #Sumario {
+            text-align: center;
+        }
+
+        table, th, td {
+        border: 2px solid rgb(216,191,216);
+        background-color: rgb(216,191,216);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 10px;
+        margin: auto;
+        }
+
+        .listas {
+            list-style-position: inside;   
+        }
+
+        #Conteudo {
+            background-color: rgb(176,224,230);
+            width: 400px;
+            margin: 0 auto;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12px;
+            
+          
+            
+        }
+
+        #Cabecalho{
+            width: 400px;
+            margin: 0 auto;
+            position: relative;
+            top: 15px;
+        }
+
+        .tamanho {
+            height: 200px;
+            width: 400px;
+        }
