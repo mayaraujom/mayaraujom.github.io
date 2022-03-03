@@ -2,25 +2,16 @@
         body {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 15px;
-            color: rgb(48, 37, 37);
-            align-content: center;
             margin: 0;
         }
 
-        h1 {
-            letter-spacing: -3px;
+        header {
+            background-color: #B4CFB0;
         }
 
-        h2 {
-            letter-spacing: 1px;
-            text-transform: uppercase;
-        }
-
-        .cabecalho {
-            background-color: #FEF5ED;
+        .nav-cabecalho{
             height: 17px;
-            padding: 15px;
-            
+            padding: 12px;         
         }
 
         .navegacao-inicial {
@@ -45,6 +36,104 @@
             text-decoration: none;
             color: rgb(4, 4, 5);
         }
+
+        .titulo-e-foto {
+            text-align: center;
+        }
+        
+        h1 {
+            text-align: center;
+            letter-spacing: -2px;
+            font-family: 'Courier New', Courier, monospace;
+            text-transform: uppercase;
+        }
+
+        .foto1 {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            padding: 15px;
+        }
+
+        main {
+            background-color:#94B49F;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .sobremim {
+            width: 33%;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+            left: 50px;
+        }
+        
+        .hobbies-parte {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+        }
+
+        .habilidades {
+            display: inline-block;
+            width: 33%;
+            text-align: center;
+        }
+
+        .foto2 {
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #789395;
+            margin: 0;
+            padding-bottom: 30px;
+        }
+
+        #contato {
+            padding: 20px;
+            background-color: #99A799;
+            color: black;
+            text-align: center;
+        }
+
+        .navegacao-final {
+            list-style: none;
+            font-weight: 700;
+        }
+
+        .item-lista2 {
+            display: inline;
+            padding: 15px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .item-lista2:hover{
+            color: black ;
+            background-color: #FEF5ED;
+        }
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        /**
+
+        
+        
+        
 
         .sobremim {
             background-color: #D3E4CD;
@@ -136,6 +225,8 @@
             color: black ;
             background-color: #FEF5ED;
         }
+
+        **/
 
 
 

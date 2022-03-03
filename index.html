@@ -8,52 +8,50 @@
     </head>
     
     <body>
-      <div>
-        <header>
-        <div class="cabecalho">
+      <header>
+        <nav class="nav-cabecalho">
             <ul class="navegacao-inicial">
               <li class="item-lista"><a class="aref" href="#sobremim-ref">Sobre mim</a></li>
               <li class="item-lista"><a class="aref" href="#hab-ref">Habilidades</a></li>
-              <li class="item-lista"><a class="aref" href="#contato-ref">Contato</a></li>
+              <li class="item-lista"><a class="aref" href="#contato">Contato</a></li>
             </ul>
-        </header>
-      </div>
-
-        <div class="sobremim centro">
-          <div class="titulo centro">
-            <h1 id="meunome">Mayara Araujo Moraes</h1>
-            <p><img class="foto1" src="https://media-exp1.licdn.com/dms/image/C4D03AQE46kY3oDo_Ug/profile-displayphoto-shrink_200_200/0/1646090859584?e=1651708800&v=beta&t=7jsb3rDu7Jkdxe-qf0wWvpVK36NpsWMyHFOZEKhlSDw"></p>
-          </div>       
-          <div class="sobremim-texto"><h2 id="sobremim-ref">Sobre mim</h2>Tenho 25 anos, nasci e moro em Montes Claros, norte de Minas Gerais. Sou formada em licenciatura plena em Matemática e comecei a estudar desenvolvimento web na Trybe em fevereiro de 2022. Agora um texto random pra encher linguiça. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </nav>
+        <section class="titulo-e-foto">
+          <h1>Mayara Araujo Moraes</h1>
+          <img class="foto1" src="https://media-exp1.licdn.com/dms/image/C4D03AQE46kY3oDo_Ug/profile-displayphoto-shrink_200_200/0/1646090859584?e=1651708800&v=beta&t=7jsb3rDu7Jkdxe-qf0wWvpVK36NpsWMyHFOZEKhlSDw">
+        </section>
+      </header>
+      
+      <main>        
+        <section class="sobremim"> 
+          <h2 id="sobremim-titulo">Sobre mim</h2>
+          <p id="paragrafo">Tenho 25 anos, nasci e moro em Montes Claros, norte de Minas Gerais. Sou formada em licenciatura plena em Matemática e comecei a estudar desenvolvimento web na Trybe em fevereiro de 2022.</p>
+        </section>
+          
+        <section class="hobbies-parte">
             <h2>My hobbies</h2>
             <img class="foto2" src="https://i.redd.it/cwzntyd3o5c51.jpg">
             <img class="foto2" src="https://cdn.vox-cdn.com/thumbor/hyMdgolGwJY4Srm2iLr7SP3E-js=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/22382760/40c40c35_3727_4939_b82b_2f1061b12197.png">
-            <img class="foto2" src="https://i.pinimg.com/564x/9b/20/94/9b209429b9e1cc1d9ec2e16cb0835f4d.jpg">            
-          </div>
-        </div>
-
-        <div class="habilidades centro">
-          <h2 id="hab-ref">Habilidades</h2>
-          </p>
-          <div class="matematica borda-redonda">
-            Matemática
-          </div>
-          <div class="ingles borda-redonda">
-            Inglês
-          </div>
-          <div class="logica-programacao borda-redonda">
-            Lógica de programação
-          </div>
+            <img class="foto2" src="https://i.pinimg.com/564x/9b/20/94/9b209429b9e1cc1d9ec2e16cb0835f4d.jpg">
+        </section>
           
-        </div>
+        <section class="habilidades">
+            <h2 id="hab-ref">Habilidades</h2>
+            <h3>Matemática</h3>
+            <h3>Inglês</h3>
+            <h3>Lógica de programação</h3>
+        </section>
+      </main>
 
-        <div class="contato">
-          <ul class="navegacao-final centro">
-            <li class="item-lista2"><a class="aref" href="https://www.linkedin.com/in/mayaraujomoraes/" target="_blank">LinkedIn</a></li>
-            <li class="item-lista2"><a class="aref" href="https://github.com/mayaraujom" target="_blank">GitHub</a></li>
-            <li class="item-lista2"><a class="aref" href="https://www.instagram.com/waaas_p/" target="_blank">Instagram</a></li>
-          </ul>
-        </div>
+
+      <footer id="contato">
+        <ul class="navegacao-final centro">
+          <li class="item-lista2"><a class="aref" href="https://www.linkedin.com/in/mayaraujomoraes/" target="_blank">LinkedIn</a></li>
+          <li class="item-lista2"><a class="aref" href="https://github.com/mayaraujom" target="_blank">GitHub</a></li>
+          <li class="item-lista2"><a class="aref" href="https://www.instagram.com/waaas_p/" target="_blank">Instagram</a></li>
+        </ul>
+      </footer>
+
 
     </body>
 </html>
